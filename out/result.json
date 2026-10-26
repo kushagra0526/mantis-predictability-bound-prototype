@@ -1,0 +1,96 @@
+{
+ "dev": {
+  "routine (first-order Markov) | n=300": {
+   "true_bound": 0.664,
+   "best_accuracy": 0.514,
+   "lz_bound": 0.71
+  },
+  "routine (first-order Markov) | n=1000": {
+   "true_bound": 0.664,
+   "best_accuracy": 0.514,
+   "lz_bound": 0.704
+  },
+  "routine (first-order Markov) | n=4000": {
+   "true_bound": 0.664,
+   "best_accuracy": 0.514,
+   "lz_bound": 0.698
+  },
+  "weekly schedule + noise | n=300": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.621
+  },
+  "weekly schedule + noise | n=1000": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.703
+  },
+  "weekly schedule + noise | n=4000": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.722
+  }
+ },
+ "held_out": {
+  "routine (first-order Markov) | n=300": {
+   "true_bound": 0.579,
+   "best_accuracy": 0.37,
+   "lz_bound": 0.662
+  },
+  "routine (first-order Markov) | n=1000": {
+   "true_bound": 0.579,
+   "best_accuracy": 0.37,
+   "lz_bound": 0.647
+  },
+  "routine (first-order Markov) | n=4000": {
+   "true_bound": 0.579,
+   "best_accuracy": 0.37,
+   "lz_bound": 0.64
+  },
+  "routine (first-order Markov), 40% gaps filled with the top place | n=300": {
+   "true_bound": 0.579,
+   "best_accuracy": 0.37,
+   "lz_bound": 0.71
+  },
+  "routine (first-order Markov), 40% gaps filled with the top place | n=1000": {
+   "true_bound": 0.579,
+   "best_accuracy": 0.37,
+   "lz_bound": 0.694
+  },
+  "routine (first-order Markov), 40% gaps filled with the top place | n=4000": {
+   "true_bound": 0.579,
+   "best_accuracy": 0.37,
+   "lz_bound": 0.679
+  },
+  "weekly schedule + noise | n=300": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.628
+  },
+  "weekly schedule + noise | n=1000": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.695
+  },
+  "weekly schedule + noise | n=4000": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.725
+  },
+  "weekly schedule + noise, 40% gaps filled with the top place | n=300": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.688
+  },
+  "weekly schedule + noise, 40% gaps filled with the top place | n=1000": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.671
+  },
+  "weekly schedule + noise, 40% gaps filled with the top place | n=4000": {
+   "true_bound": 0.81,
+   "best_accuracy": 0.81,
+   "lz_bound": 0.668
+  }
+ }
+}
